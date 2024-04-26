@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Test</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="circle-reference"></div>
+        <br>
+        <div class="circle-user"></div>
+        <br>
+        <div class="slidecontainer">
+            <input type="range" min="0" max="255" value="125" class="slider" id="myRange" oninput="rangeValue()">
+          </div>
+        <button id="turnButton" type="click">NEXT</button> 
+        <label>ACCR:</label> 
+        <input type="text" id="color-accuracy" value="" >
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
